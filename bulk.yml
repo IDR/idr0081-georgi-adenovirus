@@ -1,8 +1,7 @@
 ---
 continue: "true"
 transfer: "ln_s"
-exclude: "clientpath"
-skip: "all"
+skip: "checksum"
 parallel_upload: "10"
 columns:
     - path
