@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0081-georgi-adenovirus/screenB"
+include: "../bulk.yml"
+path: "idr0081-screenA-plates.tsv"
