@@ -31,8 +31,8 @@ columns:
     clientname: Quality Control Comments
     include: yes
 
-  - name: Comment [Plate Comment Replicate]
-    clientname: Plate Comment Replicate
+  - name: Comment [Plate Replicate]
+    clientname: Plate Replicate
     include: yes
 
   - name: Channels
