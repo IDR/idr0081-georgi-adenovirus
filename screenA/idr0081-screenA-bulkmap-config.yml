@@ -39,7 +39,14 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/organism
       columns:
-        - name: Characteristics [Organism]
+        - name: Characteristics [Organism 1]
+          clientname: Organism
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism 2]
           clientname: Organism
           include: yes
 

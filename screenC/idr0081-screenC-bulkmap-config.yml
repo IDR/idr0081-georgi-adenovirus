@@ -43,16 +43,16 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/organism
       columns:
-        - name: Characteristics [Organism]
+        - name: Characteristics [Organism 1]
           clientname: Organism
           include: yes
 
   - group:
-      namespace: openmicroscopy.org/mapr/cell_line
+      namespace: openmicroscopy.org/mapr/organism
       columns:
-      - name: Characteristics [Cell Line]
-        clientname: Cell Line
-        include: yes
+        - name: Characteristics [Organism 2]
+          clientname: Organism
+          include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/compound
