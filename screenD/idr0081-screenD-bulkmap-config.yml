@@ -39,6 +39,10 @@ columns:
     clientname: Plate Comment Subset
     include: yes
 
+  - name: Channels
+    clientname: Channels
+    include: yes
+
 
   ######################################################################
   # mapr groups
@@ -79,9 +83,6 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/compound/supplementary
       columns:
-        - name: Compound Name
-          clientname: Compound Name
-          include: yes
         - name: Compound PubChem CID
           clientname: PubChem CID
           include: yes
