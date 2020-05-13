@@ -5,9 +5,9 @@
 																			
 Comment[IDR Study Accession]	idr0081																		
 Study Title	A full cycle anti-viral drug screen identifies a clinical compound against adenovirus infection																	
-Study Type	high content screen																		
-Study Type Term Source REF	EFO																		
-Study Type Term Accession	EFO_0007550																		
+Study Type	high content screen	infection																		
+Study Type Term Source REF	EFO	EFO																		
+Study Type Term Accession	EFO_0007550	EFO_0000544																		
 Study Description	Human adenoviruses (HAdVs) are fatal to immune-suppressed people, but no effective anti-HAdV therapy is available. Here, we present a novel image-based high-throughput screening (HTS) platform, which scores the full viral replication cycle from virus entry to dissemination of progeny. We analysed 1,280 small molecular compounds of the Prestwick Chemical Library (PCL) for interference with HAdV-C2 infection in a quadruplicate blinded format, followed by robust image analyses, and hit identification. We identified Nelfinavir mesylate as an inhibitor of HAdV plaque formation, in agreement with the previous notion that Nelfinavir is ineffective in single round HAdV infection assays. Nelfinavir has been FDA-approved for anti-retroviral therapy in humans. Our results underscore the power of image-based multi-round infection assays in identifying viral inhibitors with clinical potential. 																		
 Study Key Words	Human adenovirus	novel anti-virals																		
 Study Organism	Homo sapiens	Human adenovirus type 2																		
