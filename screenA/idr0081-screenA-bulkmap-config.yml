@@ -93,6 +93,7 @@ columns:
 
 
 advanced:
+  well_to_images: true
   ignore_missing_primary_key: yes
   primary_group_keys:
     - namespace: openmicroscopy.org/mapr/organism
