@@ -3,41 +3,41 @@ name: idr0081-georgi-adenovirus/screenB
 version: 1
 
 defaults:
-  include: no
+  include: false
   type: string
-  includeclient: yes
-  visible: yes
-  omitempty: yes
+  includeclient: true
+  visible: true
+  omitempty: true
 
 columns:
 
   - name: Experimental Condition [DMSO solvent]
     clientname: DMSO solvent
-    include: yes
+    include: true
 
   - name: Control Type
     clientname: Control Type
-    include: yes
+    include: true
 
   - name: Comment [Control Type Comments]
     clientname: Control Type Comments
-    include: yes
+    include: true
 
   - name: Quality Control
     clientname: Quality Control
-    include: yes
+    include: true
 
   - name: Comment [Quality Control Comments]
     clientname: Quality Control Comments
-    include: yes
+    include: true
 
   - name: Comment [Plate Replicate]
     clientname: Plate Replicate
-    include: yes
+    include: true
 
   - name: Channels
     clientname: Channels
-    include: yes
+    include: true
 
 
   ######################################################################
@@ -49,56 +49,57 @@ columns:
       columns:
         - name: Characteristics [Organism 1]
           clientname: Organism
-          include: yes
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/organism
       columns:
         - name: Characteristics [Organism 2]
           clientname: Organism
-          include: yes
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/cell_line
       columns:
-      - name: Characteristics [Cell Line]
-        clientname: Cell Line
-        include: yes
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/compound
       columns:
         - name: Compound Name
           clientname: Compound Name
-          include: yes
+          include: true
         - name: Compound Name
           clientname: Compound Name URL
-          clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
-          include: yes
+          clientvalue: >
+            https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/compound/supplementary
       columns:
         - name: Compound PubChem CID
           clientname: PubChem CID
-          include: yes
+          include: true
         - name: Compound PubChem URL
           clientname: PubChem URL
-          include: yes
+          include: true
         - name: Compound Concentration (microMolar)
           clientname: Concentration (microMolar)
-          include: yes
+          include: true
         - name: CAS
           clientname: CAS
-          include: yes
+          include: true
         - name: Compound SMILES
           clientname: SMILES
-          include: yes
+          include: true
 
 
 advanced:
   well_to_images: true
-  ignore_missing_primary_key: yes
+  ignore_missing_primary_key: true
   primary_group_keys:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
