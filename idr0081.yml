@@ -1,0 +1,16 @@
+---
+channels:
+    1:
+        active: true
+        color: 0000FF
+        end: 12000.0
+        label: DAPI
+        start: 700.0
+    2:
+        active: true
+        color: 00FF00
+        end: 18000.0
+        label: FITC
+        start: 150.0
+greyscale: false
+version: 2
