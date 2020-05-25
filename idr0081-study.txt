@@ -4,7 +4,7 @@
 # Section with generic information about the study including title, description, publication details (if applicable) and contact details																			
 																			
 Comment[IDR Study Accession]	idr0081																		
-Study Title	A full cycle anti-viral drug screen identifies a clinical compound against adenovirus infection																	
+Study Title	High-content image-based drug screen identifies a clinical compound against cell transmission of adenovirus																	
 Study Type	high content screen	infection																		
 Study Type Term Source REF	EFO	EFO																		
 Study Type Term Accession	EFO_0007550	EFO_0000544																		
@@ -21,7 +21,7 @@ Study Public Release Date	2020-05-19
 																			
 # Study Publication																			
 Study PubMed ID																			
-Study Publication Title	A full cycle anti-viral drug screen identifies a clinical compound against adenovirus infection																		
+Study Publication Title	High-content image-based drug screen identifies a clinical compound against cell transmission of adenovirus																		
 Study Author List	Georgi F, Kuttler F, Murer L, Andriasyan V, Witte R, Yakimovich A, Turcatti G, Greber UF																		
 Study PMC ID																			
 Study DOI																			
