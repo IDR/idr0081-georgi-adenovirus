@@ -39,7 +39,8 @@ Study License	CC-BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/																			
 Study Copyright	Georgi et al																		
 Study Data Publisher	University of Dundee																			
-Study Data DOI																			
+Study Data DOI	https://doi.org/10.17867/10000136	
+														
 																			
 Term Source Name	NCBITaxon	EFO	CMPO	Fbbi															
 Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/															
@@ -51,6 +52,8 @@ Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:
 																			
 Screen Number	1																		
 Comment[IDR Screen Name]	idr0081-georgi-adenovirus/screenA
+
+Screen Data DOI	https://doi.org/10.17867/10000136a
 
 Screen Sample Type	cell																		
 Screen Description	Human adenovirus infected quality control plates consisting solely on the solvent control DMSO to confirm assay stability prior to Z' plates (preZ) and screen (preScreen).																		
@@ -120,6 +123,8 @@ Processed Data Column Link To Library File	Plate	Well	Compound Name	Compound Pub
 															
 Screen Number	2																		
 Comment[IDR Screen Name]	idr0081-georgi-adenovirus/screenB	
+
+Screen Data DOI	https://doi.org/10.17867/10000136b
 
 Screen Sample Type	cell																	
 Screen Description	Human adenovirus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control DFT to confirm assay quality.																		
@@ -191,6 +196,8 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Replicate]	Well	
 Screen Number	3																		
 Comment[IDR Screen Name]	idr0081-georgi-adenovirus/screenC	
 
+Screen Data DOI	https://doi.org/10.17867/10000136c
+
 Screen Sample Type	cell																	
 Screen Description	Human adenovirus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control DFT to confirm assay quality.																		
 Screen Size	Plates: 2	5D Images: 1,536	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.0126														
@@ -260,6 +267,8 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Replicate]	Well	
 Screen Number	4																		
 Comment[IDR Screen Name]	idr0081-georgi-adenovirus/screenD	
 
+Screen Data DOI	https://doi.org/10.17867/10000136d
+
 Screen Sample Type	cell																	
 Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Human adenovirus infection																		
 Screen Size	Plates: 16	5D Images: 12,288	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.1008														
@@ -328,6 +337,8 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Replicate]	Comme
 																					
 Screen Number	5																		
 Comment[IDR Screen Name]	idr0081-georgi-adenovirus/screenE	
+
+Screen Data DOI	https://doi.org/10.17867/10000136e
 
 Screen Sample Type	cell																	
 Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Human adenovirus infection																		
