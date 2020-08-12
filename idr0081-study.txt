@@ -24,7 +24,7 @@ Study PubMed ID
 Study Publication Title	High-content image-based drug screen identifies a clinical compound against cell transmission of adenovirus																		
 Study Author List	Georgi F, Kuttler F, Murer L, Andriasyan V, Witte R, Yakimovich A, Turcatti G, Greber UF																		
 Study PMC ID																			
-Study DOI																			
+Study DOI	https://doi.org/10.1038/s41597-020-00604-0																			
 																			
 # Study Contacts																			
 Study Person Last Name	Georgi																		
