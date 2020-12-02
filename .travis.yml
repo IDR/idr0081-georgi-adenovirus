@@ -1,9 +1,0 @@
----
-os: linux
-dist: xenial
-language: python
-python: "3.6"
-
-script:
-  - flake8 -v .
-  - yamllint .
