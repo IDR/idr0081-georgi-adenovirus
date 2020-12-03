@@ -104,3 +104,4 @@ advanced:
     - namespace: openmicroscopy.org/mapr/compound
       keys:
         - Compound Name
+        - Compound Name URL
