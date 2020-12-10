@@ -67,10 +67,8 @@ columns:
         - name: Compound Name
           clientname: Compound Name
           include: true
-        - name: Compound Name
+        - name: Compound PubChem URL
           clientname: Compound Name URL
-          clientvalue: >
-            https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
           include: true
 
   - group:
@@ -106,3 +104,4 @@ advanced:
     - namespace: openmicroscopy.org/mapr/compound
       keys:
         - Compound Name
+        - Compound Name URL
