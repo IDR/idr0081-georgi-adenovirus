@@ -348,8 +348,8 @@ Screen Imaging Method	fluorescence microscopy
 Screen Imaging Method Term Source REF	FBbi																		
 Screen Imaging Method Term Accession	FBbi_00000246																		
 Screen Technology Type	compound screen																		
-Screen Technology Type Term Source REF																			
-Screen Technology Type Term Accession																			
+Screen Technology Type Term Source REF	EFO																			
+Screen Technology Type Term Accession	EFO_0007553																			
 Screen Type	primary screen																		
 Screen Type Term Source REF	EFO																		
 Screen Type Term Accession	EFO_0007556																		
